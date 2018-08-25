@@ -1,5 +1,5 @@
 {
-    "token":"NDgwODAyODc0MTA0NzQxODk5.DmNPiQ.sqW0vn-krhCcjTnXJcXgQqLy3jc",
+    bot.login : (process.env.Token);
     "prefix": "-",
     "youtube_api_key": "AIzaSyBZv6J60A8atEqFryyIHRQpv7IxZnsRPhI"
 }
