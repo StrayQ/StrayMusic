@@ -13,6 +13,8 @@ prompt.delimiter = '';
 
 const bot = new Discord.Client();
 
+const token = process.env.token;
+
 bot.on('ready', () => {
     console.log(`${bot.user.username}  starting.`);
     console.log(`Serving ${bot.guilds.size} guilds.`);
@@ -52,6 +54,7 @@ function getCmdFunction(cmd) {
     }
     return COMMANDS[cmd] ? COMMANDS[cmd] : () => {};
 }
+bot.login{token};
 
 
 
